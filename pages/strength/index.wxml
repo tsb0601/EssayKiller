@@ -1,0 +1,50 @@
+<view class="main">
+
+<view class="utitle">
+        <view class="mtitle">师资力量</view>
+        <view class="ztitle">strength</view>
+    </view> 
+
+
+<view class="strengtharea">
+<view class="inner">
+
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
+	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+</view>
+</view>
+
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
+	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+</view>
+</view>
+
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
+	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+</view>
+</view>
+
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张鑫老师<text class="zhicheng">特级教师</text></view>
+	<view class="ilist">简介：一级讲师，英语8级，获得国家级英语竞赛一等奖</view>
+</view>
+</view>
+
+</view>
+</view>
+
+</view>
+
+<view class="lastpage" bindtap="goback">返回到首页</view>
+	

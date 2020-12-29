@@ -1,0 +1,39 @@
+<view class="main">
+
+<view class="utitle">
+        <view class="mtitle">学员风采</view>
+        <view class="ztitle">student</view>
+    </view> 
+
+<view class="mienlist">
+<view class="imagearea"><image src="/image/1.jpg" mode="widthFix"></image></view>
+<view class="text">学员风采 </view> 
+</view>
+
+<view class="mienlist">
+<view class="imagearea"><image src="/image/2.jpg" mode="widthFix"></image></view>
+<view class="text">学员风采 </view> 
+</view>
+
+<view class="mienlist">
+<view class="imagearea"><image src="/image/3.jpg" mode="widthFix"></image></view>
+<view class="text">学员风采 </view> 
+</view>
+	
+<view class="mienlist">	
+<view class="imagearea"><image src="/image/4.jpg"  mode="widthFix"></image></view>
+<view class="text">学员风采 </view> 
+</view>	
+
+<view class="mienlist">		
+<view class="imagearea"><image src="/image/1.jpg" mode="widthFix"></image></view>
+<view class="text">学员风采 </view> 
+</view>
+
+<view class="mienlist">	
+<view class="imagearea"><image src="/image/2.jpg" mode="widthFix"></image></view>
+<view class="text">我的产品列表 </view> 
+</view>
+</view>
+	
+<view class="lastpage" bindtap="goback">返回到首页</view>

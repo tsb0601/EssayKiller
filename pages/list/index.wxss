@@ -1,0 +1,26 @@
+.main{font-size:32rpx;font-family:'Microsoft YaHei';color:#555}
+/*轮播*/
+.swiper_box {height: 390rpx;}
+swiper.swiper {height: 100%;}
+.swiper-item {display: block;height: 100%;}
+.slide-image {height: 100%;width: 100%;display: inline-block;overflow: hidden;}
+
+.imagearea{width:100%;padding: 8px 0;height:390rpx;overflow:hidden;}
+.imagearea image {width:100%;display: block;}
+.text{height:50rpx;line-height:50rpx;text-align:center;}
+
+.inner{width:96%;margin:20rpx auto;}
+.introduct{width:100%;background:#fff;}
+
+.ubom10rpx{clear:both;height:10rpx;}
+.introduct image{width:100%;height:250rpx;border-radius:12rpx;}
+.pleft{float:left;width:49%;height:320rpx;}
+.pright{float:right;width:49%;height:320rpx;}
+.iname{width:100%;text-align:center;height:50rpx;line-height:50rpx;}
+
+.telicon{width:120rpx;height:120rpx;position:fixed;bottom:80rpx;right:20rpx;}
+.telicon image{width:120rpx;height:120rpx;}
+
+.utitle{width:100%;height:90rpx;text-align:center;background:#fff;}
+.mtitle{font-size:35rpx;font-weight:bold;color:#000;margin-top:10rpx;}
+.ztitle{font-size:30rpx;color:#999}

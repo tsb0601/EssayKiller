@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="main">
+<view class="topthumb">
+    <image src="/image/1.jpg" mode="scaleToFill"></image>
+</view>
+
+	<view class="utitle">
+        <view class="mtitle">关于我们</view>
+        <view class="ztitle">aboutus</view>
+    </view> 
+     <view class="text2">
+	关于是一个汉语词汇，读音为guān yú，介词，引进某种行为的关系者，组成介词结构做状语或定语。《内蒙访古》等均有相关记载。
+	①引进某种行为的关系者，组成介词结构，用在主语前面,做状语：关于这一点，我们可以从这一带发现的文物得到说明。——翦伯赞《内蒙访古》
+②介词，引进某种事物的关系者，组成介词结构，用在名词或名词性词组前面,做定语（中心词之间一般要加‘的’），或在‘是……的’式中做谓语
+	</view> 
+	
+	<view class="text3">店铺地址：XXXXXXXXXXXXXXXXXXXXX</view>
+	<view class="text3">派送电话：400-0000-000</view>
+	<view class="text3">
+		<image src="/image/qrcode.png" class="qrcode" mode="widthFix"></image>
+    </view>
+</view>
+
+<view class="telicon" bindtap="calling"><image src="/image/tel.png"></image></view>

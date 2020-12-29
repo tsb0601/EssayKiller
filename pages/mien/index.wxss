@@ -1,0 +1,21 @@
+.main{font-size:32rpx;font-family:'Microsoft YaHei';color:#555;margin-bottom:100rpx;}
+.imagearea{width:96%;padding: 8px 0;height:390rpx;overflow:hidden;margin:auto}
+.imagearea image {width:100%;display: block;border-radius:12rpx;}
+.text{height:50rpx;line-height:50rpx;text-align:center;}
+
+.inner{width:96%;margin:20rpx auto;}
+.introduct{width:100%;background:#fff;}
+
+.ubom10rpx{clear:both;height:10rpx;background:#eee;}
+.introduct image{width:100%;height:100%;border-radius:12rpx;}
+.pleft{float:left;width:60%;height:350rpx;}
+.pright{float:right;width:38%;height:350rpx;}
+.pright .psmall{width:100%;height:170rpx;}
+.pbig{clear:both;width:100%;height:390rpx;}
+
+.lastpage{width:100%;height:90rpx;line-height:90rpx;position:fixed;bottom:0;color:#fff;text-align:center;background:#000;
+filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8;}
+
+.utitle{width:100%;height:90rpx;text-align:center;background:#fff;}
+.mtitle{font-size:35rpx;font-weight:bold;color:#000;margin-top:10rpx;}
+.ztitle{font-size:30rpx;color:#999}
