@@ -22,7 +22,7 @@
     </block>
     </view>
 	
-    <view class="ubom"></view>
+    <!-- <view class="ubom"></view> -->
 	
 	<view class="utitle">
         <view class="mtitle">特色课程</view>
@@ -38,8 +38,9 @@
 	</view>
 	
 	</view>
-	</view>
-	<view class="ubom"></view>
+  </view>
+  
+	<!-- <view class="ubom"></view>
 	
 	<view class="utitle">
         <view class="mtitle">教育环境</view>
@@ -56,10 +57,10 @@
 	<view class="pbig" url=""><image src="/image/1.jpg" mode="scaleToFill"></image></view>
 	
 	</view>
-	</view>
+	</view> -->
   
 
 </view>
 </view>
 
-<view class="telicon" bindtap="calling"><image src="/image/tel.png"></image></view>
+<!-- <view class="telicon" bindtap="calling"><image src="/image/tel.png"></image></view> -->

@@ -1,5 +1,6 @@
 {
   "pages": [
+
     "pages/index/index",
     "pages/list/index",
     "pages/detail/index",
@@ -8,36 +9,42 @@
     "pages/mien/index"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "企业模板",
-    "navigationBarBackgroundColor": "#000",
-    "backgroundColor": "#999",
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "EssayKiller",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "enablePullDownRefresh": true
   },
   "tabBar": {
-    "color": "#999",
-    "selectedColor": "#000",
+    "color": "#999999",
+    "selectedColor": "#696d9c",
     "borderStyle": "white",
-    "backgroundColor": "#ddd",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/frontpage.png",
+        "selectedIconPath": "image/frontpage_selected.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/list/index",
-        "iconPath": "image/icon_product.png",
-        "selectedIconPath": "image/icon_product_HL.png",
-        "text": "课程简介"
+        "iconPath": "image/essay.png",
+        "selectedIconPath": "image/essay_selected.png",
+        "text": "文书润色"
       },
       {
         "pagePath": "pages/contact/index",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
-        "text": "联系我们"
+        "iconPath": "image/team.png",
+        "selectedIconPath": "image/team_selected.png",
+        "text": "导师团队"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "iconPath": "image/self.png",
+        "selectedIconPath": "image/self_selected.png",
+        "text": "个人中心"
       }
     ]
   },

@@ -19,20 +19,20 @@ Page( {
       navs: [
         {
 		  url:'/pages/list/index',
-          image: '/image/i1.png',
-          text: '课程介绍'
+          image: '/image/undergraduate.png',
+          text: '本科文书'
         }, {
 	      url:'/pages/strength/index',
-          image: '/image/i2.png',
-          text: '师资力量'
+          image: '/image/transfer.png',
+          text: '转学文书'
         }, {
 		  url:'/pages/mien/index',
-          image: '/image/i3.png',
-          text: '学员风采'
+          image: '/image/schoolselection.png',
+          text: '选校推荐'
         }, {
 		  url:'/pages/contact/index',
-          image: '/image/i4.png',
-          text: '联系我们'
+          image: '/image/cv.png',
+          text: '简历润色'
         }
       ]
   },
