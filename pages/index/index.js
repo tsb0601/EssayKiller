@@ -7,9 +7,9 @@ Page( {
     //向模板传入数据
     // 轮播
       images: [
-       '/image/2.jpg',
-       '/image/1.jpg',
-       '/image/3.jpg',
+       '/image/tom.png',
+       '/image/tom_and_jerry.png',
+       '/image/lunbotu.png',
       ],
       indicatorDots: true,
       vertical: false,
@@ -18,27 +18,58 @@ Page( {
       duration: 1200,
       navs: [
         {
-		  url:'/pages/list/index',
+          id:'0',
+          url:'/pages/list/index',
           image: '/image/undergraduate.png',
           text: '本科文书'
         }, {
-	      url:'/pages/strength/index',
+          id:'1',
+	        url:'/pages/strength/index',
           image: '/image/transfer.png',
           text: '转学文书'
         }, {
-		  url:'/pages/mien/index',
+          id:'2',
+		      url:'/pages/mien/index',
           image: '/image/schoolselection.png',
           text: '选校推荐'
         }, {
-		  url:'/pages/contact/index',
+          id:'3',
+		      url:'/pages/contact/index',
           image: '/image/cv.png',
           text: '简历润色'
+        }
+      ],
+      indexShow:[
+        {
+          id:0,
+          name:"留学经验分享",
+          image:"/image/index_experience1.png",
+          unclickImage:"/image/index_experience_unclick.png",
+          isActive:true
+          
+        },
+        {
+          id:1, 
+          name:"导师团队展示",
+          image:"/image/index_instructor5.png",
+          unclickImage:"/image/index_instructor_unclick.png",
+          isActive:false
         }
       ]
   },
   gotopage:function(event){
 	 wx.reLaunch({url:event.currentTarget.dataset.hi}); 
   },
+
+  handleIndexShowChange(e){
+    const {index} = e.detail;
+    let list = this.data.indexShow;
+    list.forEach((v,i) => i===index ? v.isActive = true : v.isActive = false);
+    this.setData({
+      indexShow:list
+    })
+  },
+  
   moreurl:function(){
 	 wx.reLaunch({url:"/pages/list/index"}); 
   },

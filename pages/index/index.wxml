@@ -12,23 +12,88 @@
     </block>
   </swiper>
     </view>
-	
+  
+       
+    <!-- <view class = "index_cate">
+      <navigator 
+      wx:for="{{navs}}"
+      wx:key="{{item.id}}"
+      >
+      <image mode = "widthFix" src="{{item.image}}"></image>
+      </navigator>
+    </view> -->
+
     <view class="unav">
-       <block wx:for="{{navs}}" wx:key="item.id">
+       <block wx:for="{{navs}}" wx:key="id">
     <view id="tapTest" class="navlist" data-hi="{{item.url}}" bindtap="gotopage">
       <view class="navthumb"><image src="{{item.image}}" mode="scaleToFill"></image></view>
       <view class="navname">{{item.text}}</view>
     </view>
     </block>
     </view>
-	
+  
+    <view class="ubom30rpx"></view>
+
     <!-- <view class="ubom"></view> -->
+  
+   
+  
+  <!-- <view class="index_show">
+      <text space="ensp">导师团队展示    留学经验分享</text>
+      <view class="index_instructor">
+      <navigator url="/pages/detail/index?id={{courses[0].id}}"><image src="/image/index_instructor.png" mode="widthFix"></image></navigator>
+      </view>
+
+  </view> -->
+
+  <!-- <view class="index_show"> -->
+	<!-- <view class="index_show">
+   
+  <view class="index_instructor"  bindtap="indexShowChange" 
+  wx:for="{{show}}" wx:key="id">
+    <image src="{{item.image}}" mode="widthFix"></image>
+  </view>
+  </view> -->
+  <indexShow indexShow="{{indexShow}}" bindIndexShowChange="handleIndexShowChange">
+  <block wx:if="{{indexShow[0].isActive}}">
+    <view class="ubom50rpx"></view>
+    <view class="introduct">
+	  <view class="inner">
+  	<view class="pleft" url=""><image src="/image/pikaqiu.png" mode="scaleToFill"></image></view>
+	  <view class="pright" url=""><image src="/image/pikaqiu_intro.png" mode="scaleToFill"></image></view>
+    <view class="ubom30rpx"></view>
+    <view class="pleft" url=""><image src="/image/pikaqiu.png" mode="scaleToFill"></image></view>
+    <view class="pright" url=""><image src="/image/pikaqiu_intro.png" mode="scaleToFill"></image></view>
+    <view class="ubom30rpx"></view>
+    <view class="pleft" url=""><image src="/image/pikaqiu.png" mode="scaleToFill"></image></view>
+	  <view class="pright" url=""><image src="/image/pikaqiu_intro.png" mode="scaleToFill"></image></view>
+	  </view>
+  	</view>
+  </block>
+  <block wx:elif="{{indexShow[1].isActive}}">
+    <view class="ubom50rpx"></view>
+
+  </block>
+  </indexShow>
+  
+  
+
+	<!--
+	<view class="pleft" url=""><image src="/image/1.jpg" mode="scaleToFill"></image></view>
+	<view class="pright" url=""><image src="/image/1.jpg" mode="scaleToFill"></image></view>
+	<view class="ubom10rpx"></view>
+	<view class="pbig" url=""><image src="/image/1.jpg" mode="scaleToFill"></image></view> -->
 	
-	<view class="utitle">
+ 
+
+
+   
+
+	<!-- <view class="utitle">
         <view class="mtitle">特色课程</view>
         <view class="ztitle">characteristic</view>
-    </view> 
-	<view class="introduct">
+    </view>  -->
+	<!-- <view class="introduct">
 	<view class="inner">
 	<navigator class="pleft" url="/pages/detail/index?id={{courses[0].id}}"><image src="{{courses[0].adthumb}}" mode="scaleToFill"></image></navigator>
 	<view class="pright">
@@ -38,7 +103,7 @@
 	</view>
 	
 	</view>
-  </view>
+  </view> -->
   
 	<!-- <view class="ubom"></view>
 	

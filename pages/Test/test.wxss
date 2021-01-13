@@ -1,0 +1,9 @@
+.index_cate {
+  display: flex;
+}
+.index_cate navigator {
+  flex: 1;
+}
+.index_cate navigator image {
+  width: 100%;
+}

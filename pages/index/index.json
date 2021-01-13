@@ -1,1 +1,5 @@
-{}
+{
+  "usingComponents": {
+    "indexShow":"../../components/indexShow/indexShow"
+  }
+}

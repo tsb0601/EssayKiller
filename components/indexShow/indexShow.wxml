@@ -1,0 +1,9 @@
+<view class="index_show">
+  <view class="index_instructor" bindtap="handleIndexShowTap" 
+  wx:for="{{indexShow}}" wx:key="id" data-index="{{index}}">
+    <image src ="{{item.isActive ? item.image : item.unclickImage}}" mode="widthFix"></image>
+  </view>
+</view>
+<view>
+  <slot></slot>
+</view>
