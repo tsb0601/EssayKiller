@@ -28,9 +28,9 @@ swiper.swiper {height: 100%;}
 /* newly added */
 .item_view{
   margin-top: 0px;
-  text-align: center;
+  /* text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .img-class{
@@ -51,3 +51,57 @@ swiper.swiper {height: 100%;}
   z-index: 200;
   position: absolute;
 }
+
+.essay{
+  background-color: #fff;
+  height:1120rpx;
+  /* margin:170rpx 36rpx 36rpx 36 rpx  */
+}
+
+.essay_bg{
+  position: absolute;
+  width: 100%;
+  z-index: 1
+}
+
+/* .essay_content{
+  width: 100%;
+  padding:0 15rpx;
+  display:flex;
+} */
+
+.resume{
+  position: absolute;
+  left: 36rpx;
+  top: 170rpx;
+  z-index:2;
+  width:330rpx
+}
+
+.undergraduate{
+  position: absolute;
+  left: 381rpx;
+  top: 170rpx;
+  z-index: 2;
+  width:330rpx
+}
+
+.recommend{
+  position: absolute;
+  left: 36rpx;
+  top: 535rpx;
+  z-index: 2;
+  width:330rpx
+}
+
+.transfer{
+  position: absolute;
+  left: 381rpx;
+  top: 720rpx;
+  z-index: 2;
+  width:330rpx
+}
+
+
+
+

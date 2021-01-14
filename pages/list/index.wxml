@@ -1,6 +1,4 @@
-
-
-<view class="main">
+<!-- <view class="main"> -->
 
 
     <!-- <view class="section section_gap swiper_box">
@@ -36,11 +34,20 @@
 </view>
 </view> -->
 
-</view>
+<!-- </view> -->
 	
 <!-- <view class="telicon" bindtap="calling"><image src="/image/tel.png"></image></view> -->
+<view class="essay">
+  <image class = "essay_bg" src="/image/essay_bg.jpeg" mode="widthFix"></image>
+  <image class = "resume" src="/image/resume.jpeg" mode="widthFix"></image>
+  <image class = "undergraduate" src="/image/undergraduate.jpeg" mode="widthFix"></image>
+  <image class = "recommend" src="/image/recommend.jpeg" mode="widthFix"></image>
+  <image class = "transfer" src="/image/transfer.jpeg" mode="widthFix"></image>
+</view>
 
+
+<!-- 
 <view class='item_view'>
   <image class='img-class' src="/image/pikaqiu.png"></image>
   <text class='text_num'>+3</text>
-</view>
+</view> -->
