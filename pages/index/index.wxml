@@ -56,23 +56,21 @@
   </view> -->
   <indexShow indexShow="{{indexShow}}" bindIndexShowChange="handleIndexShowChange">
   <block wx:if="{{indexShow[0].isActive}}">
-    <view class="ubom50rpx"></view>
+    <view class="ubom40rpx"></view>
     <view class="introduct">
-	  <view class="inner">
-  	<view class="pleft" url=""><image src="/image/pikaqiu.png" mode="scaleToFill"></image></view>
-	  <view class="pright" url=""><image src="/image/pikaqiu_intro.png" mode="scaleToFill"></image></view>
-    <view class="ubom30rpx"></view>
-    <view class="pleft" url=""><image src="/image/pikaqiu.png" mode="scaleToFill"></image></view>
-    <view class="pright" url=""><image src="/image/pikaqiu_intro.png" mode="scaleToFill"></image></view>
-    <view class="ubom30rpx"></view>
-    <view class="pleft" url=""><image src="/image/pikaqiu.png" mode="scaleToFill"></image></view>
-	  <view class="pright" url=""><image src="/image/pikaqiu_intro.png" mode="scaleToFill"></image></view>
+	  <view class="inner" wx:for="{{instructor}}" wx:key="id">
+  	<view class="pleft" url=""><image src="{{item.image}}" mode="scaleToFill"></image></view>
+    <view class="pright" url=""><image src="{{item.intro}}" mode="scaleToFill"></image></view>
 	  </view>
   	</view>
   </block>
   <block wx:elif="{{indexShow[1].isActive}}">
-    <view class="ubom50rpx"></view>
-
+    <view class="ubom40rpx"></view>
+    <view class="introduct">
+	  <view class="inner" wx:for="{{experience}}" wx:key="id">
+  	<view class="pcenter" url=""><image src="{{item.image}}" mode="scaleToFill"></image></view>
+	  </view>
+  	</view>
   </block>
   </indexShow>
   

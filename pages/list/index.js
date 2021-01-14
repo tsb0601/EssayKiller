@@ -27,9 +27,9 @@ Page({
 
   //事件处理函数
   onLoad: function (options) {
-    this.title = options.type || '课程介绍';
 	this.setData({courses:config.courses});
   },
+  
   onReady: function () {
     wx.setNavigationBarTitle({
       title: this.title

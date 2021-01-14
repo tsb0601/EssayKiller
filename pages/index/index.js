@@ -41,19 +41,48 @@ Page( {
       ],
       indexShow:[
         {
-          id:0,
-          name:"留学经验分享",
-          image:"/image/index_experience1.png",
-          unclickImage:"/image/index_experience_unclick.png",
-          isActive:true
-          
-        },
-        {
-          id:1, 
+          id:0, 
           name:"导师团队展示",
           image:"/image/index_instructor5.png",
           unclickImage:"/image/index_instructor_unclick.png",
+          isActive:true
+        },
+        {
+          id:1,
+          name:"留学经验分享",
+          image:"/image/index_experience1.png",
+          unclickImage:"/image/index_experience_unclick.png",
           isActive:false
+        }
+      ],
+      instructor:[
+        {
+          id:0,
+          name:"皮卡丘",
+          image:"/image/pikaqiu.png",
+          intro:"/image/pikaqiu_intro.png"
+        },
+        {
+          id:1,
+          name:"皮卡丘",
+          image:"/image/pikaqiu.png",
+          intro:"/image/pikaqiu_intro.png"
+        },
+        {
+          id:2,
+          name:"皮卡丘",
+          image:"/image/pikaqiu.png",
+          intro:"/image/pikaqiu_intro.png"
+        }
+      ],
+      experience:[
+        {
+          id:0,
+          image:"/image/experience1.png"
+        },
+        {
+          id:1,
+          image:"/image/experience2.png"
         }
       ]
   },

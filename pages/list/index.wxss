@@ -24,3 +24,30 @@ swiper.swiper {height: 100%;}
 .utitle{width:100%;height:90rpx;text-align:center;background:#fff;}
 .mtitle{font-size:35rpx;font-weight:bold;color:#000;margin-top:10rpx;}
 .ztitle{font-size:30rpx;color:#999}
+
+/* newly added */
+.item_view{
+  margin-top: 0px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-class{
+  width: 100px;
+  height: 100px;
+  z-index: 120;
+  position: absolute;
+}
+
+.text_num{
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: rgb(99, 99, 105);
+  opacity: 0.5;
+  font-size: 14px;
+  color: rgb(248, 248, 244);
+  z-index: 200;
+  position: absolute;
+}

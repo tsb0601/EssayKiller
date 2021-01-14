@@ -1,6 +1,9 @@
+
+
 <view class="main">
 
-    <view class="section section_gap swiper_box">
+
+    <!-- <view class="section section_gap swiper_box">
          <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
                 autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
     <block wx:for="{{images}}" wx:key="item.id">
@@ -9,14 +12,14 @@
       </swiper-item>
     </block>
   </swiper>
-    </view>
+    </view> -->
 	
-<view class="utitle">
+<!-- <view class="utitle">
 	<view class="mtitle">全部课程</view>
 	<view class="ztitle">courses</view>
-</view> 
+</view>  -->
 	
-<view class="introduct">
+<!-- <view class="introduct">
 <view class="inner">
 
 <block wx:for-items="{{courses}}" wx:key="{{item.id}}">
@@ -31,8 +34,13 @@
 </block>
 
 </view>
-</view>
+</view> -->
 
 </view>
 	
-<view class="telicon" bindtap="calling"><image src="/image/tel.png"></image></view>
+<!-- <view class="telicon" bindtap="calling"><image src="/image/tel.png"></image></view> -->
+
+<view class='item_view'>
+  <image class='img-class' src="/image/pikaqiu.png"></image>
+  <text class='text_num'>+3</text>
+</view>

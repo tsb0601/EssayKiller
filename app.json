@@ -4,6 +4,7 @@
     "pages/index/index",
     "pages/list/index",
     "pages/detail/index",
+    "pages/team/index",
     "pages/contact/index",
     "pages/strength/index",
     "pages/mien/index"
@@ -35,7 +36,7 @@
         "text": "文书润色"
       },
       {
-        "pagePath": "pages/contact/index",
+        "pagePath": "pages/team/index",
         "iconPath": "image/team.png",
         "selectedIconPath": "image/team_selected.png",
         "text": "导师团队"
