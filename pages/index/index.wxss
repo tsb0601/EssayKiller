@@ -152,11 +152,13 @@ swiper.swiper {
 
 .pleft{
   width:25%;
-  height:178rpx}
+  height:178rpx
+}
 
 .pright{
   width:70%;
-  height:178rpx}
+  height:178rpx
+}
 
 .pcenter{
   width:94%;

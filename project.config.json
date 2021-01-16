@@ -20,11 +20,13 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
+    "enableEngineNative": false,
     "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": false,
@@ -32,13 +34,12 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "useApiHostProcess": false
+    "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "1.6.0",
-  "appid": "wx0b8887ee885e6880",
-  "projectname": "%E4%BC%81%E4%B8%9A%E6%A8%A1%E6%9D%BF5",
+  "appid": "wxa0a7ecd23bee375c",
+  "projectname": "essayKiller",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {

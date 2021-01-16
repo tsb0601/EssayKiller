@@ -1,0 +1,9 @@
+<!--components/DropDown/DropDown.wxml-->
+<picker mode="selector" range="{{list}}">
+<view class="dropdown">
+    <view class="text">{{name}}</view>
+    <view class="box">
+    <image src="../../image/dropdown.png"></image>
+    </view>
+</view>
+</picker>

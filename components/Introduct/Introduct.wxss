@@ -1,0 +1,21 @@
+/* components/Introduct.wxss */
+.introduct{
+  margin-left: 35rpx;
+}
+.introduct .inner{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.introduct .inner .pleft{
+  width:25%;
+  height:178rpx;
+}
+.introduct .inner .pright{
+  width:70%;
+  height:178rpx
+}
+image{
+  width: 100%;
+  height: 100%;
+}

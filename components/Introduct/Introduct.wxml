@@ -1,0 +1,7 @@
+<!--components/Introduct.wxml-->
+<view class="introduct">
+    <view class="inner" wx:for="{{instructor}}" wx:key="id">
+        <view class="pleft" url="" ><image src="{{item.image}}"mode="scaleToFill"></image></view>
+        <view class="pright" url=""><image src="{{item.intro}}"mode="scaleToFill"></image></view>
+    </view>
+</view>

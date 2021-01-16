@@ -35,3 +35,9 @@
   background-color: #9ab8d9;
   white-space: nowrap;
 }
+.filter{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
