@@ -1,10 +1,9 @@
 {
   "pages": [
-
-    "pages/index/index",
-    "pages/list/index",
-    "pages/detail/index",
     "pages/team/index",
+    "pages/index/index",
+    "pages/detail/index",
+    "pages/list/index",
     "pages/contact/index",
     "pages/strength/index",
     "pages/mien/index"

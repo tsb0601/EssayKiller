@@ -5,7 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    instructor:[
+      {
+        id:0,
+        name:"皮卡丘",
+        image:"/image/pikaqiu.png",
+        intro:"/image/pikaqiu_intro.png"
+      },
+      {
+        id:1,
+        name:"皮卡丘",
+        image:"/image/pikaqiu.png",
+        intro:"/image/pikaqiu_intro.png"
+      },
+      {
+        id:2,
+        name:"皮卡丘",
+        image:"/image/pikaqiu.png",
+        intro:"/image/pikaqiu_intro.png"
+      }
+    ]
   },
 
   /**
@@ -14,53 +33,12 @@ Page({
   onLoad: function (options) {
 
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  handleIndexShowChange(e){
+    const {index} = e.detail;
+    let list = this.data.indexShow;
+    list.forEach((v,i) => i===index ? v.isActive = true : v.isActive = false);
+    this.setData({
+      indexShow:list
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })

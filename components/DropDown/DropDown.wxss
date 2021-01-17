@@ -1,0 +1,27 @@
+/* components/DropDown/DropDown.wxss */
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18rpx;
+  background-color: #9ab8d9;
+  width: 180rpx;
+  margin-bottom: 33rpx;
+}
+.dropdown .text {
+  font-size: 18rpx;
+  color: white;
+  line-height: 36rpx;
+}
+.dropdown .box {
+  box-sizing: border-box;
+  height: 36rpx;
+  position: relative;
+}
+.dropdown .box image {
+  width: 17.48rpx;
+  height: 15.42rpx;
+  position: absolute;
+  right: -20rpx;
+  top: 14.28rpx;
+}
