@@ -1,57 +1,172 @@
-/**index.wxss**/
 .main{font-size:32rpx;font-family:'Microsoft YaHei';color:#555}
-.container {
-  padding-top: 30px;
-}
-.topthumb{
-	width:100%;
-	height:390rpx;
-}
-.topthumb image{width:100%;height:390rpx;}
+/*轮播*/
+.swiper_box {height: 390rpx;}
+swiper.swiper {height: 100%;}
+.swiper-item {display: block;height: 100%;}
+.slide-image {height: 100%;width: 100%;display: inline-block;overflow: hidden;}
+
+.imagearea{width:100%;padding: 8px 0;height:390rpx;overflow:hidden;}
+.imagearea image {width:100%;display: block;}
+.text{height:50rpx;line-height:50rpx;text-align:center;}
+
+.inner{width:96%;margin:20rpx auto;}
+.introduct{width:100%;background:#fff;}
+
+.ubom10rpx{clear:both;height:10rpx;}
+.introduct image{width:100%;height:250rpx;border-radius:12rpx;}
+.pleft{float:left;width:49%;height:320rpx;}
+.pright{float:right;width:49%;height:320rpx;}
+.iname{width:100%;text-align:center;height:50rpx;line-height:50rpx;}
+
+.telicon{width:120rpx;height:120rpx;position:fixed;bottom:80rpx;right:20rpx;}
+.telicon image{width:120rpx;height:120rpx;}
 
 .utitle{width:100%;height:90rpx;text-align:center;background:#fff;}
 .mtitle{font-size:35rpx;font-weight:bold;color:#000;margin-top:10rpx;}
 .ztitle{font-size:30rpx;color:#999}
 
-.liw{
-  width: 3px;
-  height: 18px;
-  display: inline-block;
-  background-color: #000;
-}
-view.text {
-  display: flex;
+/* newly added */
+.item_view{
+  margin-top: 0px;
+  /* text-align: center;
   align-items: center;
-  position: relative;
-  padding: 10px 10px 10px 12px;
-  font-size: 15px;
-  color: #656565;
-   background-color: #ccc;
+  justify-content: center; */
 }
-view.text text {
-  margin-left: 10px;
-  line-height: 18px;
- 
-}
-view.text2 {
-  text-indent:40rpx;
-  align-items: center;
-  position: relative;
-  padding: 10px 10px 10px 12px;
-  font-size: 30rpx;
-  line-height:50rpx;
-  color: #656565;
-}
-view.text3 {
-  width:92%;
-  margin:auto;
-  line-height:50rpx;
-  align-items: center;
-  position: relative;
-  font-size: 30rpx;
-  color: #656565;
-}
-.qrcode{width:100%;margin:30rpx auto}
 
-.telicon{width:120rpx;height:120rpx;position:fixed;bottom:80rpx;right:20rpx;}
-.telicon image{width:120rpx;height:120rpx;}
+.img-class{
+  width: 100px;
+  height: 100px;
+  z-index: 120;
+  position: absolute;
+}
+
+.text_num{
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: rgb(99, 99, 105);
+  opacity: 0.5;
+  font-size: 14px;
+  color: rgb(248, 248, 244);
+  z-index: 200;
+  position: absolute;
+}
+
+.essay{
+  background-color: #fff;
+  height:1120rpx;
+  /* margin:170rpx 36rpx 36rpx 36 rpx  */
+}
+
+
+.rec {
+  width:100%;
+  height:380rpx;
+  background: #93c0e7;
+  position:fixed;
+  z-index: 1;
+}
+
+
+.order{
+  position: absolute;
+  left: 80rpx;
+  top: 350rpx;
+  z-index:2;
+  height:60rpx;
+  background:#fff
+}
+
+.collection{
+  position: absolute;
+  left: 80rpx;
+  top: 506rpx;
+  z-index: 2;
+  height:60rpx;
+  background:#fff
+}
+
+.coupon{
+  position: absolute;
+  left: 80rpx;
+  top: 662rpx;
+  z-index: 2;
+  height:60rpx;
+  background:#fff
+}
+
+.customer_service{
+  position: absolute;
+  left: 80rpx;
+  top: 818rpx;
+  z-index: 2;
+  height:60rpx;
+  background:#fff
+}
+
+.log_out{
+  position: absolute;
+  left: 80rpx;
+  top: 974rpx;
+  z-index: 2;
+  height:60rpx;
+  background:#fff
+}
+
+.rec1{
+  position: absolute;
+  left: 36rpx;
+  top: 320rpx;
+  z-index:2;
+  width:672rpx;
+  height:120rpx;
+  background:#fff;
+  box-shadow: 4rpx 4rpx 0rpx 0rpx #ccc;
+}
+
+.rec2{
+  position: absolute;
+  left: 36rpx;
+  top: 476rpx;
+  z-index: 2;
+  width:672rpx;
+  height:120rpx;
+  background:#fff;
+  box-shadow: 4rpx 4rpx 0rpx 0rpx #ccc;
+}
+
+.rec3{
+  position: absolute;
+  left: 36rpx;
+  top: 632rpx;
+  z-index: 2;
+  width:672rpx;
+  height:120rpx;
+  background:#fff;
+  box-shadow: 4rpx 4rpx 0rpx 0rpx #ccc;
+}
+
+.rec4{
+  position: absolute;
+  left: 36rpx;
+  top: 788rpx;
+  z-index: 2;
+  width:672rpx;
+  height:120rpx;
+  background:#fff;
+  box-shadow: 4rpx 4rpx 0rpx 0rpx #ccc;
+}
+
+.rec5{
+  position: absolute;
+  left: 36rpx;
+  top: 944rpx;
+  z-index: 2;
+  width:672rpx;
+  height:120rpx;
+  background:#fff;
+  box-shadow: 4rpx 4rpx 0rpx 0rpx #ccc;
+}
+
+
+
